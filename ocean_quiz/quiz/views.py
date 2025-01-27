@@ -9,7 +9,7 @@ def index(request):
 
 def get_quiz(request):
     """
-    Fetch a paginated list of quiz questions filtered by category.
+    Fetch paginated list of quiz questions filtered by category.
     Supports `limit`, `offset`, and `category` query parameters.
     """
     # Get query parameters with defaults
