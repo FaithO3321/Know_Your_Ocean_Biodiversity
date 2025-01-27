@@ -2,7 +2,7 @@ from django.contrib import admin
 from .models import QuizQuestion, Answer
 
 @admin.register(QuizQuestion)
-class QuizQuestionAdmin(admin.ModelAdmin):
+class QuizQuestionAdmin(admin.ModelAdmin): # Displays the question
     list_display = ('id', 'question_text', 'category')
 
 @admin.register(Answer)
