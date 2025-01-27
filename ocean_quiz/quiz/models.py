@@ -1,6 +1,6 @@
 from django.db import models
 
-class QuizQuestion(models.Model):
+class QuizQuestion(models.Model): # Represents a question in a quiz
     category = models.CharField(max_length=100, default="Ocean Biodiversity")
     question_text = models.TextField()
     
